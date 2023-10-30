@@ -1,0 +1,90 @@
+body {
+    text-align: center;
+}
+
+#studio_logo {
+    width: 100%;
+    max-width: 450px;
+}
+
+hr {
+    border: 1px dashed #452e4c;
+}
+
+.game {
+    width: 100%;
+    max-width: 720px;
+    display: inline-block;
+}
+
+.game .title_img {
+    width: 100%;
+    margin: 1em 0 1em 0;
+}
+
+.game .screenshots {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1px;
+}
+
+.game .screenshots img {
+    width: 100%;
+}
+
+.game .links {
+    margin: 1em;
+    gap: 1em;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.game .links a {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+
+    border: none;
+    border-radius: 5px;
+
+    padding: 10px;
+    width: auto;
+    height: 2em;
+}
+
+.game .links a:hover {
+    background-image: linear-gradient(transparent, white);
+    /* box-shadow: 0 0 0 2px white inset; */
+}
+
+.game .links a img {
+    width: auto;
+    height: 100%;
+    margin-right: 10px;
+}
+
+#steam_logo {
+    background-color: #282E39;
+}
+
+#itchio_logo {
+    background-color: #FA5C5C;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
