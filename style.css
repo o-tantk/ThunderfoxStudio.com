@@ -81,6 +81,14 @@ hr {
     background-color: #FA5C5C;
 }
 
+#twitter_logo {
+    background-color: #1DA1F2;
+}
+
+#twitter_logo:hover img {
+    content: url("twitter_icon.png");
+}
+
 footer {
     display: flex;
     flex-direction: row;
