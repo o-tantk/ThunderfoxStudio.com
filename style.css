@@ -90,9 +90,43 @@ hr {
 }
 
 footer {
+    display: inline-flex;
+}
+
+footer .email {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+}
+
+footer .media-kit {
+    margin-left: 1em;
+}
+
+footer .media-kit a {
+    color: gray;
+}
+
+@media screen and (max-width: 800px) {
+    footer .media-kit {
+        display: none;
+    }
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    /* 16:9 */
+    height: 0;
+    margin-bottom: 0.5em;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
