@@ -11,6 +11,11 @@ hr {
     border: 1px dashed #452e4c;
 }
 
+h1, h2 {
+    margin: 0.5em;
+    text-decoration: underline;
+}
+
 .game {
     width: 100%;
     max-width: 720px;
@@ -111,6 +116,10 @@ footer .media-kit a {
 
 @media screen and (max-width: 800px) {
     footer .media-kit {
+        display: none;
+    }
+
+    .wide_only {
         display: none;
     }
 }
